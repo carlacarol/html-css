@@ -1,0 +1,52 @@
+@charset "UTF-8"
+
+body {
+    background-color: hwb(313 10% 9%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: red;
+    background-color: aquamarine;
+}
+
+p {
+    text-align: justify;
+}
+
+
+ body {
+
+            background-color: rgb(34, 36, 59);
+        }
+
+<body>
+
+    <h1 style="color: rgb(255, 255, 255);"> Olá, eu me chamo Carla Carolina </h1>
+
+    <p style="color: rgb(51, 48, 48);"> Estou criando meu portfolio, aprimorando minhas habilidades em programação</p>
+    <br>
+    <p style="color: rgb(255, 255, 255);">
+        Serviços
+    </p>
+	
+	
+	/*display é utilizada para indicar a forma como os elementos HTML serão 
+	dispostos na página ou em espaços delimitados*/
+	
+	/*é usada para definir a formatação de underline , overline ,
+	line-through ou blink*/
+webkit-text-decoration: none;
+text-decoration: none;
+
+/*permite que você aplique efeitos gráficos, como desfoque ou mudança de cores, na área
+ ao fundo de um elemento*/
+-webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+
+	/* Posiciona o elemento a partir do topo da página*/
